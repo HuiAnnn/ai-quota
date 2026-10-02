@@ -1,0 +1,24 @@
+{
+  "name": "codex-quota",
+  "version": "0.3.5",
+  "description": "A native macOS menu bar companion for Codex, Grok Bot, Manus, Cue and Muse quota.",
+  "author": {
+    "name": "HuiAnnn"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI 额度",
+    "shortDescription": "在 Mac 菜单栏集中查看五个应用的额度，支持更换默认来源和本地扩展。",
+    "longDescription": "免费的独立 macOS 原生额度工具，附带 Swift 源码，在本机编译。支持 Codex、Grok Bot、Manus、Cue、Muse，各来源独立刷新；菜单栏默认来源可更换并保存，周期百分比与额外余额分开显示，重置时间统一使用北京时间。需要 macOS 13+、Swift 5.9+（Xcode Command Line Tools）和 Python 3；本机服务登录权限分别连接，Muse 使用独立网页登录，真实额度仍需登录验证。保留 Codex 重置机会和免费公开重置动态，支持无凭据本地 JSON 扩展。查询不调用 AI 模型。非 OpenAI 官方产品。",
+    "developerName": "HuiAnnn",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "安装并打开 AI 额度菜单栏工具。",
+      "查看我的 Codex、Grok Bot、Manus、Cue 和 Muse 额度及连接状态。",
+      "查看 Codex 重置机会及到期时间，不要使用重置机会。"
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

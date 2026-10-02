@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "custom.example",
+  "name": "示例应用",
+  "observedAt": "2026-10-02T00:00:00Z",
+  "metrics": [
+    {
+      "id": "weekly",
+      "label": "每周额度",
+      "kind": "periodic",
+      "remainingPercent": 75,
+      "reset": {
+        "at": "2026-10-09T00:00:00+08:00",
+        "precision": "day"
+      }
+    },
+    {
+      "id": "extra",
+      "label": "额外积分",
+      "kind": "balance",
+      "remaining": 200,
+      "unit": "积分",
+      "contributesToSummary": false
+    }
+  ]
+}

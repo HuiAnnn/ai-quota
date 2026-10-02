@@ -1,0 +1,21 @@
+# Local builds and runtime data
+.DS_Store
+.build/
+.swiftpm/
+dist/
+*.app/
+__pycache__/
+*.py[cod]
+.cache/
+Signing/
+*.keychain*
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.log
+auth.json
+pending-reset.json
+.env
+.env.*
