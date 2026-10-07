@@ -27,7 +27,7 @@ SKILL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 NATIVE_SOURCE="$SKILL_DIR/assets/native"
 INSTALL_APP="$HOME/Applications/Codex额度.app"
 EXPECTED_ID='local.huian.codex-quota'
-EXPECTED_VERSION='0.3.5'
+EXPECTED_VERSION='0.3.6'
 
 valid_app() {
   local candidate="$1"

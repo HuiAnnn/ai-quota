@@ -101,7 +101,13 @@ struct ResetCreditsSection: View {
         } header: {
             Text("完全重置机会")
         } footer: {
-            Text("点击“重置”会立即使用 1 次机会。到期时间指这次机会的有效期。")
+            Text("点击“重置”即使用 1 次机会；所示时间为机会有效期。")
+                .font(.caption2)
+                .foregroundStyle(.tertiary)
+                .lineLimit(1)
+                .minimumScaleFactor(0.85)
+                .frame(maxWidth: .infinity, alignment: .center)
+                .multilineTextAlignment(.center)
         }
     }
 
